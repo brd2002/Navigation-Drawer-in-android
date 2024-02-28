@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/homeforapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:title="Home" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:title="Profile" />
+    <item
+        android:id="@+id/check_heart"
+        android:layout_width="wrap_content"
+        android:icon="@drawable/check_heart"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:title="Check Heart" />
+    <item
+        android:id="@+id/medical_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/medical_report"
+        android:checkable="true"
+        android:title="Medical report" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share"
+        android:layout_width="wrap_content"
+        android:checkable="true"
+        android:layout_height="wrap_content"
+        android:title="Share" />
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:title="Wallet" />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:title="Calendar" />
+    <item
+        android:title="Support"
+        >
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:title="Settings" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:title="Contact us" />
+
+        </menu>
+    </item>
+</menu>
